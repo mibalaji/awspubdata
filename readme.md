@@ -1,5 +1,4 @@
-# awspubdata
-Copying AWS public dataset from EBS snapshot to S3 bucket using Terraform
+# Automated aws public data copy into a S3 bucket
 
 Need the following tools for running the terraform automation script:
 
@@ -17,4 +16,5 @@ Invoke terraform to create an ec2-instance, EBS volume from the sample data snap
 
   $terraform plan
   $terraform apply
+  
 
