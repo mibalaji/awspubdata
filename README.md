@@ -16,5 +16,6 @@ create a credentials file in the directory where the main.tf & variables.tf file
 Invoke terraform to create an ec2-instance, EBS volume from the sample data snapshot, Create S3 bucket and copy the data across automatically:
 
   $terraform plan
+
   $terraform apply
 
