@@ -31,7 +31,7 @@ resource "aws_instance" "web" {
 
   provisioner "file" {
     source      = "credentials"
-    destination = "/home/ec2-user/.aws/"
+    destination = "/home/ec2-user/.aws/credentials"
   }
 
   provisioner "remote-exec" {
